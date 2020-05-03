@@ -1,0 +1,26 @@
+.leader-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  span {
+    margin: 0px 37px;
+    color: #9da6a9;
+    font-size: 30px;
+    text-align: center;
+  }
+  ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    li {
+      display: flex;
+      justify-content: space-between;
+      margin: 1px;
+      padding: 0px 10px;
+      background-color: #cfd8dc;
+      color: #9da6a9;
+      width: 300px;
+    }
+  }
+}
